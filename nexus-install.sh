@@ -14,5 +14,7 @@ sudo chmod -R 775 /opt/sonatype-work
 #nexus configurations. 
 #sudo vi /opt/nexus/bin/nexus.rc
 #run_as_user="nexus"
-starting nexus
-sudo su  -nexus
+#starting nexus
+#sudo su  -nexus
+#/opt/nexus/bin/nexus start
+#/opt/nexus/bin/nexus status
