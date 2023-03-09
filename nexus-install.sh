@@ -18,3 +18,7 @@ sudo chmod -R 775 /opt/sonatype-work
 #sudo su  -nexus
 #/opt/nexus/bin/nexus start
 #/opt/nexus/bin/nexus status
+  # <server>
+  #     <id>nexus</id>
+     #  <username>admin</username>
+ ## </server>

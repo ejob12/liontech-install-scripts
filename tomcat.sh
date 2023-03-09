@@ -15,3 +15,13 @@ sh /opt/tomcat/bin/startup.sh
 sudo ln -s /opt/tomcat/bin/startup.sh /usr/bin/starttomcat
 sudo ln -s /opt/tomcat/bin/shutdown.sh /usr/bin/stoptomcat
 starttomcat
+
+#vi /opt/tomcat/conf/tomcat-users.xml 
+#Copy the below and paste in the context.xml file 
+# <role rolename="admin-gui" />, <user username="admin" password="admin123" roles="manager-script,manager-gui,manager-admin" />
+# change tomcat port top 8009 
+#  vi   /opt/tomcat/conf/server.xml
+#change line 69 from 8080  to 8009.
+#same and quit. 
+
+#configure interner access :      vi /opt/tomcat/webapps/manager/META-INF/context.xml 
