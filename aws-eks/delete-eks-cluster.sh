@@ -1,2 +1,2 @@
 #!/bin/bash
-eksctl delete cluster  banking-clinet   --region  us-east-1 
+eksctl delete cluster  liontechprod   --region  ca-central-1 
