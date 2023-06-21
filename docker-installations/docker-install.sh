@@ -6,7 +6,7 @@
   apt-cache policy docker-ce
   sudo apt install docker-ce
   sudo systemctl status docker
-  sudo usermod -aG docker liontechacademy
+  sudo usermod -aG docker ubuntu
   sudo service docker restart
   sudo service docker start
   docker info
